@@ -1,0 +1,74 @@
+.dropdown button{
+	width: 100%;
+	background-color: rgb(55, 100, 150);
+	display: inline-block;
+	font-size: 50px;
+	font-family: fantasy;
+	position: relative;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	align-content: center;
+	width: 100%;
+	overflow: all;
+}
+
+.dropdown:hover .dropdown-content {
+	color: rgb(167, 0, 0);
+	display: block;
+}
+
+.dropdown-content a {
+	background-color: rgb(55,55,55);
+	color:  rgb(150,150,150);
+	display: block;
+	font-size: 25px;
+	font-family: fantasy;
+	text-decoration: none;
+	text-align: center;
+}
+.dropdown-content a:hover{
+	 background-color: rgb(150,150,150);
+	 color:  rgb(55,55,55);
+}
+
+body {
+	background-color: rgb(44, 44, 44);
+}
+.main-text{
+	background-color: rgb(74,54,64);
+}
+.main-text h2{
+	background-color: rgb(54,74,64);
+	text-align: center;
+	font-size: 35px;
+	font-variant: small-caps;
+	font-family: fantasy;
+}
+
+.main-text p{
+	text-indent: 5%;
+	color: rgb(150,150,150);
+	font-size: 25px;
+}
+
+.main-text table, th, td{
+	border:2px solid black;
+	border-collapse: collapse;
+}
+
+.main-text img{
+	width: 250px;
+	height: 250px;
+}
+
+.main-text th,td{
+	text-align: center;
+}
+
+.stuff img{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
